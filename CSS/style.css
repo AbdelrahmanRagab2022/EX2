@@ -1,0 +1,38 @@
+.home {
+    background-color:rgba(0,0,0,0.6);
+    background-image: url(../Images/bg1.jpg);
+    background-size: 100% 100%;
+    
+    background-blend-mode:darken;
+    height: 100vh;
+}
+.nav-bar{
+}
+.logo {
+    float :left;
+    padding: 10px;
+}
+.logo img {
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+}
+.nav-list{
+    float:right
+}
+.nav-list ul {
+    list-style-type: none;
+}
+.nav-list ul li {
+    float: left;
+    padding: 10px 25px;
+}
+li a {
+    text-decoration: none;
+    color :white;
+    font-size: 125%;
+}
+
+.clear {
+    clear: both;
+}
